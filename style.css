@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height:fit-content;
+    user-select: none;
+    
+}
+nav{
+    position: sticky;
+    top:0;
+    left:0;
+    display:flex;
+    height:60px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+}
+nav .logo{
+    width:120px;
+    display: flex;
+}
+nav .logo i{
+    font-size: 24px;
+    font-weight: 900;
+    color:#a3072b;
+    padding:4px;
+    line-height: 60px;
+}
+nav .logo p{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 70px;
+    color:#025e1b;
+}
+nav ul{
+    display:flex;
+    gap:28px;
+    margin-left: 50%;
+}
+nav ul li{
+    list-style: none;
+    line-height: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#0e0d0d;
+}
+nav ul li .home{
+    background: #025e1b;
+}
+.one{
+    height:fit-content;
+    width:100%;
+}
+.one .right{
+    position: fixed;
+    right:6px;
+    bottom:0;
+    border-radius: 6px;
+    width:28%;
+    height:587px;
+}
+.one .right ul{
+    border:1px solid rgba(255, 0, 0, 0.246);
+    border-radius: 6px;
+    width:300px;
+    margin-top:50px;
+    margin-left:30px;
+}
+.one .right ul li{
+    list-style: none;
+    margin:12px;
+}
+.one .right ul li a{
+    text-decoration: none;
+    color:#0e0d0d;
+}
+.one .right ul li a:hover{
+    color:red;
+}
+
+.one .left{
+    height:100%;
+    width:70%;
+}
+.one .left .mypic{
+    height:360px;
+    width:900px;
+    border-radius: 6px;
+    margin:8px 14px;
+    background: rgba(0,0,0,0.8) url(scene.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.one .left .mypic p{
+   color:#a1a4a0;
+   font-size: 18px;
+   position: absolute;
+   left:25%;
+   top:40%;
+   letter-spacing: 1.5px;
+}
+.one .left .msg{
+   height:150px;
+   width:700px;
+   margin-left:10%;
+   margin-top:40px; 
+   border:1px solid #dbd5d5;
+   border-radius: 6px;
+   background: #e4e6ea;
+}
+.one .left .msg .photo{
+    display:flex;
+    float:right;
+    margin-right:12px;
+    margin-top: 14px;;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+
+}
+.one .left .msg .photo img{
+    border-radius: 50%;
+    border:1px solid #4e4b4b;
+}
+.one .left .msg p{
+    letter-spacing: 1px;
+    margin:14px 18px;
+    font-size: 16px;
+    color:rgb(22, 21, 21);
+    text-align: center;
+    
+}
+.one .left .msg p .pl{
+    color:#bb2800;
+    margin:12px;
+    display: block;
+}
+.two .keta{
+    background: #e4e6ea;
+    height:150px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.two .keta p{
+    margin-top: 12px;
+}
+.two .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.two .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.three .keta{
+    background: #e4e6ea;
+    height:250px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.three .keta p{
+    margin-top: 5%;
+}
+.three .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.three .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.four .keta{
+    background: #e4e6ea;
+    height:220px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.four .keta p{
+    margin-top: 12px;
+}
+.four .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.four .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.five .keta{
+    background: #e4e6ea;
+    height:220px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.five .keta p{
+    margin-top: 10%;
+}
+.five .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.five .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.six .keta{
+    background: #e4e6ea;
+    height:220px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.six .keta p{
+    margin-top:5%;
+}
+.six .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.six .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.seven .keta{
+    background: #e4e6ea;
+    height:220px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.seven .keta p{
+    margin-top: 15%;
+}
+.seven .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.seven .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.eight .keta{
+    background: #e4e6ea;
+    height:220px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.eight .keta p{
+    margin-top: 15%;
+}
+.eight .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.eight .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.nine .keta{
+    background: #e4e6ea;
+    height:220px;
+    width:500px;
+    margin-top:6%;
+    margin-left: 15%;
+    margin-bottom:5%;
+    border:1px solid #dbd5d5;
+    border-radius: 6px;
+    text-align: center;
+}
+.nine .keta p{
+    margin-top: 15%;
+}
+.nine .keta p .wr{
+    margin:16px;
+    font-size:18px;
+}
+.nine .keta p .wr a{
+    text-decoration: none;
+    color:rgb(32, 110, 212);
+}
+.social{
+    height:50px;
+    width:100%;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+.social ul{
+    background:#f2f3f6;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+}
+.social .logo{
+    width:130px;
+    display: flex;
+}
+.social .logo i{
+    padding:4px;
+    line-height: 45px;
+}
+.social .logo p{
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+.social ul li{
+    list-style: none;
+    line-height: 50px;
+}
+.social ul li a{
+    text-decoration: none;
+    color:#0e0d0d;
+    border-left: 1px solid red;
+    padding:12px;
+    height:30px;
+}
